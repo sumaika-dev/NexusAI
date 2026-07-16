@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusAI — Autonomous Data Intelligence & Predictive Analytics Platform</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Plus Jakarta Sans) -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Background Glowing Orbs -->
+    <div class="glow-orb" id="orb-1"></div>
+    <div class="glow-orb" id="orb-2"></div>
+    <div class="glow-orb" id="orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo-container">
+            <div class="logo-icon">
+                <i class="fa-solid fa-cubes text-white text-sm"></i>
+            </div>
+            <span class="logo-text">NEXUS<span class="logo-highlight">AI</span></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#bento" class="nav-link">Analytics</a>
+            <a href="#process" class="nav-link">Workflow</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="magnetic-btn btn-secondary">Sign In</button>
+            <button class="magnetic-btn btn-primary">Start Free</button>
+        </div>
+    </header>
+
+    <!-- Main Container for Smooth Scroll Transitions -->
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <!-- Glowing Badges -->
+                <div class="hero-badge reveal-item">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">v2.4 Live: Multi-channel Connectors Enabled</span>
+                </div>
+
+                <h1 class="hero-title reveal-item">
+                    Analyze Complex Data with <br>
+                    <span class="gradient-text">Autonomous Intelligence</span>
+                </h1>
+
+                <p class="hero-subtitle reveal-item">
+                    Stop building static dashboards. NexusAI automatically processes massive real-time streams, predicts structural bottlenecks, and triggers workflows autonomously.
+                </p>
+
+                <div class="hero-buttons reveal-item">
+                    <button class="magnetic-btn btn-primary btn-large">
+                        Start Your Free Trial <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </button>
+                    <button class="btn-outline btn-large">
+                        <i class="fa-solid fa-play text-xs mr-2 text-violet-500"></i> Watch Interactive Demo
+                    </button>
+                </div>
+
+                <!-- Interactive Floating Dashboard Mockup Preview -->
+                <div class="hero-preview-container reveal-item">
+                    <div class="preview-header">
+                        <div class="preview-dots">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <div class="preview-address">https://dashboard.nexusai.co</div>
+                    </div>
+                    <div class="preview-body">
+                        <div class="preview-grid">
+                            <div class="preview-sidebar">
+                                <div class="sb-item active"></div>
+                                <div class="sb-item"></div>
+                                <div class="sb-item"></div>
+                                <div class="sb-item"></div>
+                            </div>
+                            <div class="preview-content-grid">
+                                <div class="preview-metric-card">
+                                    <span class="metric-label">Active Users</span>
+                                    <span class="metric-value">48.2k</span>
+                                    <span class="metric-trend up"><i class="fa-solid fa-arrow-trend-up"></i> +12.4%</span>
+                                </div>
+                                <div class="preview-metric-card">
+                                    <span class="metric-label">API Latency</span>
+                                    <span class="metric-value">22ms</span>
+                                    <span class="metric-trend stability"><i class="fa-solid fa-check"></i> Optimal</span>
+                                </div>
+                                <div class="preview-chart-card">
+                                    <div class="chart-bars">
+                                        <div class="bar h-12"></div>
+                                        <div class="bar h-24"></div>
+                                        <div class="bar h-16"></div>
+                                        <div class="bar h-32"></div>
+                                        <div class="bar h-28"></div>
+                                        <div class="bar h-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bento Grid Section -->
+            <section id="bento" class="bento-section">
+                <div class="section-header">
+                    <span class="section-tag">ENGINEERED FOR MODERN TEAMS</span>
+                    <h2 class="section-title">The Unified Core of Your Data Ecosystem</h2>
+                    <p class="section-desc">Experience unparalleled data architecture speed with features built explicitly for scale.</p>
+                </div>
+
+                <!-- CSS Grid Layout -->
+                <div class="bento-grid">
+                    
+                    <!-- Card 1: Large Featured Card -->
+                    <div class="bento-card col-span-2 bento-reveal">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="icon-wrapper icon-violet">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <h3 class="card-title">Real-time Advanced Predictive Engines</h3>
+                            <p class="card-text">Our state-of-the-art predictive ML modules run directly within edge caches, analyzing complex multi-tier dependencies to prevent bottlenecks before they occur.</p>
+                            <div class="card-footer-visual mt-6">
+                                <div class="processing-line">
+                                    <div class="active-pulse"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Medium Vertical Card -->
+                    <div class="bento-card col-span-1 bento-reveal">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="icon-wrapper icon-blue">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <h3 class="card-title">Edge Latency Control</h3>
+                            <p class="card-text">Experience hyper-fast processing across global content delivery channels under extreme workloads.</p>
+                            <div class="latency-metric">&lt; 22ms</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Small Card -->
+                    <div class="bento-card col-span-1 bento-reveal">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="icon-wrapper icon-fuchsia">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h3 class="card-title">Zero-Trust Security</h3>
+                            <p class="card-text">Advanced end-to-end security matching rigorous data-privacy standards globally.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Horizontal Medium Card -->
+                    <div class="bento-card col-span-2 bento-reveal">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="icon-wrapper icon-emerald">
+                                <i class="fa-solid fa-shuffle"></i>
+                            </div>
+                            <h3 class="card-title">Instant Integration Sync</h3>
+                            <p class="card-text">Sync your production pipelines instantly with Webflow, Github, Slack, and Salesforce. Complete automation setup in under 5 minutes without writing a line of custom script.</p>
+                            <div class="tag-cloud mt-6">
+                                <span class="badge-item">Webflow</span>
+                                <span class="badge-item">GitHub</span>
+                                <span class="badge-item">Slack</span>
+                                <span class="badge-item">Salesforce</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Smooth Workflow Timeline Section -->
+            <section id="process" class="process-section">
+                <div class="section-header">
+                    <span class="section-tag">THREE STEPS TO EXCELLENCE</span>
+                    <h2 class="section-title">How NexusAI Optimizes Pipelines</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-step step-reveal">
+                        <div class="step-number">01</div>
+                        <div class="step-body">
+                            <h4 class="step-title">Seamless Direct Ingestion</h4>
+                            <p class="step-text">Connect any database cluster or application logs in seconds via our ultra-flexible edge webhook connectors.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step step-reveal">
+                        <div class="step-number">02</div>
+                        <div class="step-body">
+                            <h4 class="step-title">Autonomous Processing</h4>
+                            <p class="step-text">Our localized LLMs interpret metadata patterns instantly, standardizing formats without complex transformation schemas.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step step-reveal">
+                        <div class="step-number">03</div>
+                        <div class="step-body">
+                            <h4 class="step-title">Dynamic Orchestration</h4>
+                            <p class="step-text">Sit back as actions automatically execute across third-party networks dynamically, notifying engineers instantly.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="logo-container">
+                        <span class="logo-text">NEXUS<span class="logo-highlight">AI</span></span>
+                    </div>
+                    <p class="footer-note">&copy; 2026 NexusAI Technologies Inc. Crafted for ultra-modern frontend engineering excellence.</p>
+                </div>
+            </footer>
+
+        </div>
+    </main>
+
+    <!-- GSAP Core & ScrollTrigger Plugins CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Custom JS Link -->
+    <script src="animation.js"></script>
+</body>
+</html>
